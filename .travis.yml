@@ -1,6 +1,7 @@
+dist: focal
 install:
 - pip install -U pip
-- pip install pydistman
+- pip install cookiecutter pydistman
 - pip --version
 - ( cd python-sum_walker && python3 python_pypi_dist_manager.py build_only )
 - ( cd python-sum_walker && cat dest/requirements.txt )
