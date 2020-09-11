@@ -1,6 +1,6 @@
 install:
 - pip install -U pip
-- pip install cookiecutter
+- pip install pydistman
 - pip --version
 - ( cd python-sum_walker && python3 python_pypi_dist_manager.py build_only )
 - ( cd python-sum_walker && cat dest/requirements.txt )
